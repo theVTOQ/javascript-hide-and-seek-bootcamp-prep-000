@@ -7,10 +7,10 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  var grandChildren = document.querySelectorAll('#grand-node ' div);
+  var grandChildren = document.querySelectorAll('#grand-node div');
   return grandChildren[grandChildren.length - 1]
 }
 
 function increaseRankBy(n){
-  
+
 }
